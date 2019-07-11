@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "react-shopify",
+    "dev": "react-shopify"
+  }
+}

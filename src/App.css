@@ -1,14 +1,5 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,15 +10,34 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.product-img {
+  width: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid grey;
+  width: 800px;
+  display: inline-flex;
+}
+
+.product-info {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.App-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.checkout-btn {
+  margin: 20px !important;
+}
+
+.add-btn {
+  font-size: 12px !important;
 }
